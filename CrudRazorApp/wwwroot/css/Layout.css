@@ -1,0 +1,38 @@
+﻿/* Estilo general del navbar */
+.navbar {
+    padding: 1rem 3rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #111827 !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .navbar-brand img {
+        width: 35px;
+        height: 35px;
+    }
+
+.nav-link {
+    color: #4b5563 !important;
+    font-weight: 500;
+    margin-left: 2rem;
+    transition: color 0.3s;
+}
+
+    .nav-link:hover {
+        color: #111827 !important;
+    }
+
+/* Centrar el contenido */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
